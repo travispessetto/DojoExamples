@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Example</title>
+  <script src="./js/dojo/dojo.js"></script>
+  <script src="./js/dojoConfig.js"></script>
+  <script src="./js/site.js"></script>
+  <link href="./js/dojox/grid/resources/claroGrid.css" rel="stylesheet" type="text/css" />
+  <style>
+    #gridDiv
+    {
+      height: 20em;
+    }
+  </style>
+</head>
+<body>
+  <table data-dojo-type="dojox/grid/DataGrid" data-dojo-props="store:myTestStore" style="width: 500px; height: 300px;">
+    <thead>
+      <tr>
+        <th field="name" width="500px">Name</th>
+      </tr>
+    </tead>
+  </table>
+</body>
+</html>
