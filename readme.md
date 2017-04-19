@@ -22,7 +22,10 @@ webserver.
 
 ## Website
 
+
 Since I figure viewing examples online would be a good idea. There is an index.html
 file at the base of this repository that provides a simple way to view all of
 the working files.  I plan on using this as the same code that is in the repository
 on the website.  I guess my point is there is no Dojo code to look at in that file.
+
+The URL of the website is [https://travispessetto.github.io/DojoExamples/](https://travispessetto.github.io/DojoExamples/)
