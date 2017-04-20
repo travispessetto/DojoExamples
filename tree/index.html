@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<link rel="stylesheet" href="../dojo/dijit/themes/claro/claro.css">
+	<script src='../dojo/dojo/dojo.js'></script>
+  <script src="./js/site.js"></script>
+
+	<script>
+require(["dojo/parser", "dojo/store/Memory", "dijit/tree/ObjectStoreModel", "dijit/Tree"]);
+	</script>
+</head>
+<body class="claro">
+
+<!-- Create the tree -->
+<div data-dojo-type="dijit/Tree" id="mytree"
+    data-dojo-props="model: myModel, openOnClick: true"></div>
+</body>
+</html>
