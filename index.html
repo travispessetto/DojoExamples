@@ -9,9 +9,10 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<link rel="stylesheet" href="site.css" />
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="site.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -21,7 +22,6 @@
           </div>
         </div>
       </nav>
-
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
@@ -31,6 +31,7 @@
           there may be additional files.  Look at index.html for a complete list of scripts included.</p>
         </div>
       </div>
+
 
       <div class="container">
         <!-- Example row of columns -->
@@ -69,6 +70,11 @@
             <p>This is an example of Dojo Tree.</p>
             <p><a href="tree/" class="btn btn-default" role="button">View &raquo;</a></p>
           </div>
+          <div class="col-md-4">
+            <h2>Clickable Tree</h2>
+            <p>This is a Dojo Tree you can click the objects on!</p>
+            <p><a href="clickabletree/" class="btn btn-default" role="button">View &raquo;</a></p>
+          </div>
         </div>
 
         <hr>
@@ -79,7 +85,7 @@
       </div> <!-- /container -->
 
       <!-- View Modal -->
-        <div class="modal" id="preview" role="dialog">
+        <div class="modal large" id="preview" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -87,7 +93,7 @@
                 <h4 class="modal-title" id="myModalLabel">View Example</h4>
               </div>
               <div class="modal-body">
-                Testing one two three
+                <iframe src="" id="exampleFrame">
               </div>
             </div>
           </div>
